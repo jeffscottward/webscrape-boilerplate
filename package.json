@@ -1,7 +1,7 @@
 {
   "name": "webscrape-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webscraping best practice boilerplate for both JSON and Webpages",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
