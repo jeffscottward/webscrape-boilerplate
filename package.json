@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node dist/index.js",
-    "start:now": "npm run build && node dist/index.js --run-now",
-    "createDB": "npm run build && node dist/createDB.js"
+    "start": "pnpm build && node dist/index.js",
+    "start:now": "pnpm build && node dist/index.js --run-now",
+    "createDB": "pnpm build && node dist/createDB.js"
   },
   "author": "",
   "license": "ISC",
