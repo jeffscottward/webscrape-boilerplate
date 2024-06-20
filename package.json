@@ -1,0 +1,35 @@
+{
+  "name": "webscrape-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "start:now": "npm run build && node dist/index.js --run-now",
+    "createDB": "npm run build && node dist/createDB.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "axios-retry": "^4.4.0",
+    "better-sqlite3": "^11.0.0",
+    "bottleneck": "^2.19.5",
+    "date-fns": "^3.6.0",
+    "lodash": "^4.17.21",
+    "node-schedule": "^2.1.1",
+    "playwright": "^1.44.1",
+    "x-ray": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/lodash": "^4.17.5",
+    "@types/node": "^20.14.6",
+    "@types/node-schedule": "^2.1.7",
+    "@types/x-ray": "^2.3.6",
+    "typescript": "^5.4.5",
+    "winston": "^3.13.0"
+  }
+}
