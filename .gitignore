@@ -67,4 +67,5 @@ yarn-error.log
 # mac ds_store
 .DS_Store
 
-dist
+# build
+dist/
