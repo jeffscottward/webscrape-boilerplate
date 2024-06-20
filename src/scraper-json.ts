@@ -1,6 +1,7 @@
 /**
- * This file contains the main scraping logic. It fetches mortgage information
- * from a JSON API, retries on failure, and inserts the data into an SQLite database.
+ * @file scraper-json.ts
+ * @description Fetches mortgage information from a JSON API, retries on failure, and inserts
+ *              the data into an SQLite database.
  */
 
 import axios from "axios";

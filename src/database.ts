@@ -1,6 +1,7 @@
 /**
- * This file sets up the SQLite database connection and provides
- * functions to insert and retrieve mortgage information.
+ * @file database.ts
+ * @description Sets up the SQLite database connection and provides functions to insert
+ *              and retrieve mortgage information.
  */
 
 import Database from "better-sqlite3";

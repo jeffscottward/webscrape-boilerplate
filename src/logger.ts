@@ -1,6 +1,6 @@
 /**
- * This file sets up a winston logger for logging messages and errors
- * throughout the scraping process.
+ * @file logger.ts
+ * @description Sets up a winston logger for logging messages and errors throughout the scraping process.
  */
 
 import winston from "winston";

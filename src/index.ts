@@ -1,7 +1,7 @@
 /**
- * This file schedules the scraping tasks to run at regular intervals.
- * It also provides an option to run the scraping tasks immediately for testing.
- * It uses node-schedule to trigger the scraping function for both JSON and webpage sources.
+ * @file index.ts
+ * @description Schedules the scraping tasks to run at regular intervals and provides an
+ *              option to run the scraping tasks immediately for testing using node-schedule.
  */
 
 import schedule from "node-schedule";

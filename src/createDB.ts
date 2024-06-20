@@ -2,6 +2,7 @@
  * @file createDB.ts
  * @description Initializes and exports a SQLite database instance using better-sqlite3.
  */
+
 import Database from "better-sqlite3";
 
 // Initialize the database

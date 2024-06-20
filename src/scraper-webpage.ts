@@ -1,7 +1,7 @@
 /**
- * This file contains the main scraping logic for a real estate sellers page.
- * It uses X-Ray and Playwright to scrape mortgage information from a webpage,
- * and inserts the data into an SQLite database.
+ * @file scraper-webpage.ts
+ * @description Scrapes mortgage information from a real estate sellers webpage using X-Ray and
+ *              Playwright, then inserts the data into an SQLite database.
  */
 
 import axios from "axios";
